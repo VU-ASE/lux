@@ -1,0 +1,16 @@
+# Service definition
+name: ChangeThisRepoName
+description: template-GoModule
+
+# No dependencies
+dependencies: []
+
+# No outputs (You'll probably want to update this or `dependencies`)
+outputs: []
+
+# Runtime options
+options:
+  - name: example_option
+    type: int     # Can be int, float, string, bool
+    mutable: true # Can be changed at runtime
+    default: 1    # Default value
