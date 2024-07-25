@@ -1,16 +1,8 @@
-# Service definition
-name: ChangeThisRepoName
-description: template-GoModule
+name: mod-Lux
+description: Module to read a BH1750 light sensor and publish the values.
 
-# No dependencies
 dependencies: []
 
-# No outputs (You'll probably want to update this or `dependencies`)
-outputs: []
-
-# Runtime options
-options:
-  - name: example_option
-    type: int     # Can be int, float, string, bool
-    mutable: true # Can be changed at runtime
-    default: 1    # Default value
+outputs:
+  - name: lux-output
+    address: tcp://*:5599
