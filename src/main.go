@@ -4,9 +4,9 @@ import (
 	"os"
 	"time"
 
-	pb_module_outputs "github.com/VU-ASE/pkg-CommunicationDefinitions/v2/packages/go/outputs"
-	pb_systemmanager_messages "github.com/VU-ASE/pkg-CommunicationDefinitions/v2/packages/go/systemmanager"
-	servicerunner "github.com/VU-ASE/pkg-ServiceRunner/v2/src"
+	pb_module_outputs "github.com/VU-ASE/rovercom/packages/go/outputs"
+	pb_core_messages "github.com/VU-ASE/rovercom/packages/go/core"
+	servicerunner "github.com/VU-ASE/roverlib/src"
 	"github.com/d2r2/go-bh1750"
 	"github.com/d2r2/go-i2c"
 	"github.com/d2r2/go-logger"
@@ -18,7 +18,7 @@ import (
 func run(
 	serviceInfo servicerunner.ResolvedService,
 	sysMan servicerunner.SystemManagerInfo,
-	initialTuning *pb_systemmanager_messages.TuningState) error {
+	initialTuning *pb_core_messages.TuningState) error {
 
 	// Set up logging
 	err := logger.ChangePackageLogLevel("bh1750", logger.InfoLevel)
@@ -105,7 +105,7 @@ func run(
 	}
 }
 
-func tuningCallback(newtuning *pb_systemmanager_messages.TuningState) {
+func tuningCallback(newtuning *pb_core_messages.TuningState) {
 	log.Warn().Msg("Tuning state changed, but this module does not have any tunable parameters")
 }
 
