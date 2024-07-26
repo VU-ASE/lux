@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.0 (2024-07-26)
+
+
+### Bug Fixes
+
+* repo naame ([b0e5776](https://github.com/VU-ASE/lux/commit/b0e57765a25d0b7c297a98cb0d5cc267f9eba0d3))
+* upgrade deps ([75c0b37](https://github.com/VU-ASE/lux/commit/75c0b379d4577fc57f0380f3dd002b2913d398a0))
+
 ## [1.1.1](https://github.com/VU-ASE/mod-Lux/compare/v1.1.0...v1.1.1) (2024-05-06)
 
 
