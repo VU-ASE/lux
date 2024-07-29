@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/VU-ASE/lux/compare/v1.0.0...v1.0.1) (2024-07-29)
+
+
+### Bug Fixes
+
+* rename CoreInfo ([e07f4da](https://github.com/VU-ASE/lux/commit/e07f4dabfe196d010db5b0db419f52daf74b5d71))
+
 ## 1.0.0 (2024-07-26)
 
 
