@@ -17,7 +17,7 @@ import (
 
 func run(
 	serviceInfo servicerunner.ResolvedService,
-	sysMan servicerunner.SystemManagerInfo,
+	sysMan servicerunner.CoreInfo,
 	initialTuning *pb_core_messages.TuningState) error {
 
 	// Set up logging

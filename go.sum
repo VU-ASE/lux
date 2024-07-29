@@ -1,7 +1,7 @@
 github.com/VU-ASE/rovercom v1.0.2 h1:e2cyu5bGAtapjPDMSxOdo4dS3I9sc5x7RtuDHSf3YAw=
 github.com/VU-ASE/rovercom v1.0.2/go.mod h1:1T9bXpOPMMkubm6YBa847vseBRALFzq8lkDx96w0Hr8=
-github.com/VU-ASE/roverlib v1.0.1 h1:pv9ft7rI09xcmg+ugn5zQIz5dJj3QU5phswRQ2kxgY4=
-github.com/VU-ASE/roverlib v1.0.1/go.mod h1:cSbWxet2ajCezXNyqqjKe4+mSZz8QL44jBeHDb7vgH0=
+github.com/VU-ASE/roverlib v1.0.3 h1:AV1P+b4regBsJ+2gcrJNDBi511m4HbiQzIlyJ6osxvM=
+github.com/VU-ASE/roverlib v1.0.3/go.mod h1:cSbWxet2ajCezXNyqqjKe4+mSZz8QL44jBeHDb7vgH0=
 github.com/coreos/go-systemd/v22 v22.5.0/go.mod h1:Y58oyj3AT4RCenI/lSvhwexgC+NSVTIJ3seZv2GcEnc=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/d2r2/go-bh1750 v0.0.0-20181222061755-1195122364ab h1:8zeQTn3owfeyIA5KIhtvcj9wlMStdFaxbYwPkWhGVgo=

@@ -1,10 +1,10 @@
-module vu/ase/mod-Lux
+module vu/ase/lux
 
-go 1.21.6
+go 1.22.0
 
 require (
 	github.com/VU-ASE/rovercom v1.0.2
-	github.com/VU-ASE/roverlib v1.0.1
+	github.com/VU-ASE/roverlib v1.0.3
 	github.com/d2r2/go-bh1750 v0.0.0-20181222061755-1195122364ab
 	github.com/d2r2/go-i2c v0.0.0-20191123181816-73a8a799d6bc
 	github.com/d2r2/go-logger v0.0.0-20210606094344-60e9d1233e22
